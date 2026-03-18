@@ -1,0 +1,2 @@
+python 3.13 or later
+colorgram 1.2.0
