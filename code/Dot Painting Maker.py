@@ -1,7 +1,7 @@
 #Dot Painting Maker     by Dr.M-Dev:
 import colorgram
 import random
-from turtle import *
+from turtle import Turtle, Screen
 import turtle
 #________________________
 REFINED_colors_list = [] #THE LIST IS GLOBAL
@@ -162,7 +162,7 @@ def extraction_operation(targeted_file_name, color_set_size):
 
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++GRAPHICS! (GUI)-related
-my_turtle = turtle.Turtle()
+my_turtle = Turtle()
 my_screen = Screen()
 my_screen.title("🎨🖌Dot Paintings Maker  -  Dr.m_Dev")
 ####################
@@ -431,3 +431,6 @@ while RUNNING:
         rest_values()
         #
         start_code()
+
+#___________________________________________________________________________
+my_screen.mainloop()
