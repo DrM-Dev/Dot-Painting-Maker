@@ -1,4 +1,6 @@
 this code alows you to make "Damien.H-Like" paintings
+*just use the excutable "Dot Painting Maker.exe"
+*py-code is in the code folder
 
 REQ:
 colorgram 1.2.0
